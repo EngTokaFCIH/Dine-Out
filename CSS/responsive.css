@@ -1,13 +1,13 @@
 @media (max-width: 1300px) {
-    header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption h1{
+header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption h1{
         font-size: 35px;
-    }
+}
 
-    header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption p{
+header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption p{
     width: 90%;
     font-size: 11px;
 }
-    header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption button{
+header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption button{
     width: 100px;
     height: 30px;
 }
@@ -20,13 +20,6 @@ header  .buttons button i {
     height: 30px;
     font-size: 12px;
 }
-
-
-
-
-
-
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content img{
     width: 40%;
 }
@@ -51,19 +44,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content but
     height: 30px;
     border-width: 2px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 h2{
     font-size: 20px;
 }
@@ -82,15 +62,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 button{
     height: 30px;
     border-width: 2px;
 }
-
-
-
-
-
-
-
-
-
 #MenuNav  ul{
     width: max-content;
 }
@@ -101,18 +72,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 button{
     width: 40px;
     height: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
  .title h2{
     font-size: 35px;
 }
@@ -149,45 +108,20 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 button{
 #About .container .part-2 .content h3{
     font-size: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Testimonials{
     height: auto;
-    background-color: #080f12;
+    background-image: url("../images/video_image-min.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #Testimonials .container .text h2{
     font-size: 20px;
 }
-
 #Testimonials .container .text p{
     width: 100%;
     font-size: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Menu .tab-pane .item{
     margin: auto;
 }
@@ -219,23 +153,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 button{
     top: 85%;
     left: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Team .item{
     max-width: 280px;
     margin: auto;
@@ -249,22 +166,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 button{
 #Team .item .content h4{
     font-size: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Order  form{
     width: 100%;
     padding: 20px 0px;
@@ -294,18 +195,6 @@ footer p{
 header #carouselExampleCaptions .carousel-item:nth-of-type(1) .carousel-caption button:hover span {
     font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content img{
     width: 35%;
 }
@@ -330,13 +219,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content but
     height: 45px;
     border-width: 2px;
 }
-
-
-
-
-
-
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 h2{
     font-size: 25px;
 }
@@ -352,16 +234,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 button{
    width: 140px;
     height: 50px;
 }
-
-
-
-
-
-
-
-
-
-
 #Menu .nav button{
     padding: 15px 40px;
     row-gap: 15px;
@@ -369,31 +241,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 button{
 #Menu .nav button img{
     width: 35px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Team .item .content h3{
     font-size: 20px;
 }
@@ -404,7 +251,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 button{
     row-gap: 70px;
 }
 }
-
 @media (min-width: 577px) and (max-width: 1300px) {
     header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption h1{
         font-size: 50px;
@@ -414,14 +260,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 button{
     width: 75%;
     font-size: 13px;
 }
-
-
-
-
-
-
-
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content p{
     font-size: 13px;
     width: 70%;
@@ -437,34 +275,12 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content but
     height: 45px;
     border-width: 2px;
 }
-
-
-
-
-
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul li img{
     width: 25%;
 }
-
-
-
-
-
-
-
 #MenuNav  ul li{
     width: 120px;
 }
-
-
-
-
-
-
-
-
-
 #About .container .part-1 h2{
     font-size: 25px;
 }
@@ -480,15 +296,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul li img{
 #About .container .part-2 .content{
     height: 280px;
 }
-
-
-
-
-
-
-
-
-
 #Testimonials .container .text h2{
     font-size: 30px;
 }
@@ -503,16 +310,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul li img{
 #Testimonials .container .item h3{
     font-size: 22px;
 }
-
-
-
-
-
-
-
-
-
-
 #Menu .nav button{
     padding: 15px 20px;
 }
@@ -523,12 +320,10 @@ footer p{
     font-size: 16px;
 }
 }
-
 @media (min-width: 769px) and (max-width: 1300px) {
     header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption h1{
         font-size: 65px;
     }
-
     header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption p{
     width: 60%;
     font-size: 13px;
@@ -540,10 +335,6 @@ header  .buttons>button {
 header  .buttons button i {
     font-size: 15px;
 }
-
-
-
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content p{
     font-size: 13px;
     width: 100%;
@@ -559,38 +350,18 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content but
     height: 45px;
     border-width: 2px;
 }
-
-
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-1 img{
     width: 100%;
 }
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul li img{
     width: 35%;
 }
-
-
-
-
-
-
-
 #MenuNav  ul{
     width: 100%;
 }
 #MenuNav  ul li{
     width: calc(100%/7);
 }
-
-
-
-
-
-
-
-
-
 #About  .container h3{
     font-size:20px;
 }
@@ -609,29 +380,14 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul li img{
 #About .container .part-2 .content{
     height: 250px;
 }
-
-
-
-
-
-
-
-
-
 #Testimonials{
     height: 560px;
     color: #fff;
 }
-
-
-
-
 #Testimonials .container .text p{
     width: 85%;
     font-size: 15px;
 }
-
-
 #Testimonials .container .item img{
     width: 30%;
 }
@@ -641,18 +397,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul li img{
 #Testimonials .container .item h3{
     font-size: 18px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 #Team .item .content{
     padding: 5px 10px;
 }
@@ -665,21 +409,11 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul li img{
 #Team .row{
     row-gap: 0px;
 }
-
-
-
-
-
-
-
-
-
 #Order  form{
     width: 350px;
     padding: 20px 0px;
 }
 }
-
 @media (min-width: 992px) and (max-width: 1300px) {
 header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-1 img{
     width: 80%;
@@ -690,31 +424,12 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul  {
 header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul li img{
     width: 30%;
 }
-
-
-
-
 #About  .container h3{
     font-size:25px;
 }
-
-
-
-
-
-
-
-
 #Testimonials .container .item img{
     width: 25%;
 }
-
-
-
-
-
-
-
 #Menu .nav button{
     padding: 15px 20px;
 }
@@ -728,14 +443,11 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul li img{
     top: 50%;
     left: 90%;
 }
-
 }
-
 @media (min-width: 1181px) and (max-width: 1300px) {
 header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content h2{
     font-size: 85px;
 }
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content p{
     font-size: 15px;
     width: 90%;

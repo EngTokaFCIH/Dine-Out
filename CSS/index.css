@@ -13,8 +13,6 @@ header nav .container button {
     background-color: transparent;
     border: none;
 }
-
-
 header nav .container button:focus {
     box-shadow: none;
 }
@@ -79,13 +77,11 @@ header nav .container .offcanvas .offcanvas-body ul li a {
     transition-duration: 0.5s;
     transition-property: all;
 }
-
-header nav .container .offcanvas .offcanvas-body ul li a:hover {
+header nav .container .offcanvas .offcanvas-body ul li:hover a {
     transform: translateX(15px);
     color: var(--main-color);
     left: 50px;
 }
-
 header nav .container .offcanvas .offcanvas-body .icons {
     display: flex;
     align-items: center;
@@ -93,11 +89,9 @@ header nav .container .offcanvas .offcanvas-body .icons {
     column-gap: 10px;
     position: relative;
 }
-
 header nav .container .offcanvas .offcanvas-body .icons a {
     text-decoration: none;
 }
-
 header nav .container .offcanvas .offcanvas-body .icons a {
     display: block;
     width: 40px;
@@ -112,16 +106,13 @@ header nav .container .offcanvas .offcanvas-body .icons a {
     opacity: 0;
     transition-duration: 1.5s;
 }
-
 header nav .container .offcanvas .offcanvas-body .icons a:first-child {
     opacity: 1;
 }
-
 header nav .container .offcanvas.show .offcanvas-body .icons a:nth-of-type(1) {
     color: #1877f2;
     z-index: 4;
 }
-
 header nav .container .offcanvas.show .offcanvas-body .icons a:nth-of-type(2) {
     color: #e4405f;
     left: 50px;
@@ -129,7 +120,6 @@ header nav .container .offcanvas.show .offcanvas-body .icons a:nth-of-type(2) {
     transition-delay: 1s;
     opacity: 1;
 }
-
 header nav .container .offcanvas.show .offcanvas-body .icons a:nth-of-type(3) {
     color: #25d366;
     left: 100px;
@@ -137,7 +127,6 @@ header nav .container .offcanvas.show .offcanvas-body .icons a:nth-of-type(3) {
     transition-delay: 0.7s;
     opacity: 1;
 }
-
 header nav .container .offcanvas.show .offcanvas-body .icons a:nth-of-type(4) {
     color: #1da1f2;
     left: 150px;
@@ -155,7 +144,6 @@ header nav .container .offcanvas .offcanvas-body .icons a:hover i{
 header #carouselExampleCaptions .carousel-item {
     overflow: hidden;
 }
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(1) .box::before {
     content: "";
     display: block;
@@ -184,9 +172,7 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(1) .box{
 }
 header #carouselExampleCaptions .carousel-item:nth-of-type(1).active{
     transform: scale(1.1);
-
 }
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(1) .carousel-caption{
     position: initial;
     flex-direction: column;
@@ -229,44 +215,17 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(1) .carousel-caption 
     left: -100%;
     transition-duration: 1s;
 }
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(1) .carousel-caption button span {
     position: relative;
     z-index: 2;
     transition-duration: 1s;
 }
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(1) .carousel-caption button:hover::before {
     left: 0%;
 }
 header #carouselExampleCaptions .carousel-item:nth-of-type(1) .carousel-caption button:hover span {
     color: #fff;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(2){
     background-image: url("../images/slider-bg1.jpg");
     background-position: center;
@@ -287,7 +246,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content img
 header #carouselExampleCaptions .carousel-item.active:nth-of-type(2) .item .content img{
     top: 7%;
 }
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content h2{
     font-family: "Poppins", sans-serif;
     color: #e4c5a6;
@@ -298,20 +256,16 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content h2{
 header #carouselExampleCaptions .carousel-item.active:nth-of-type(2) .item .content h2{
     transform: translateX(0%);
 }
-
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content .box{
     flex-direction: column;
 }
 header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content .box>*{
     transform: scale(0);
     transition-duration: 1s;
-
 }
 header #carouselExampleCaptions .carousel-item.active:nth-of-type(2) .item .content .box>*{
     transform: scale(1);
 }
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content hr{
     width: 90%;
     opacity: 1;
@@ -353,14 +307,12 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content but
     left: -100%;
     transition-duration: 1s;
 }
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content button span {
     font-size: 15px;
     position: relative;
     z-index: 2;
     transition-duration: 1s;
 }
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content button:hover::before {
     left: 0%;
 }
@@ -368,42 +320,24 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content but
     color: #fff;
 
 }
-
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item.part-2{
     position: absolute;
     top: -110%;
     transition-duration: 1s;
     width: 90%;
 }
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item.part-2 img{
     width: 100%;
-    animation-name: animate-1;
+    animation-name: pizza;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
     animation-duration: 8s;
     animation-direction: reverse;
 }
-
 header #carouselExampleCaptions .carousel-item.active:nth-of-type(2) .item.part-2{
     top: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(3){
  background-image: url("../images/chef-bg.png");
  background-color: #0f2027;
@@ -418,7 +352,7 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-1{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation-name: animate-2;
+    animation-name: burger;
     animation-timing-function: linear;
     animation-duration: 1.5s;
     animation-direction: alternate;
@@ -446,7 +380,6 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 h2{
 header #carouselExampleCaptions .carousel-item.active:nth-of-type(3) .part-2 h2{
     top: 0%;
 }
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 hr{
     height: 4px;
     width: 0%;
@@ -546,22 +479,12 @@ header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 button spa
     transition-duration: 1s;
     font-size: 18px;
 }
-
 header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 button:hover::before {
     left: 0%;
 }
 header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 button:hover span {
     color: #fff;
 }
-
-
-
-
-
-
-
-
-
 header  .buttons {
     position: absolute;
     bottom: 5%;
@@ -608,45 +531,6 @@ header  .buttons button:hover i {
     transform: scale(1.3);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* *+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++===============++++++++++++++++++++++ */
 #MenuNav  ul{
     width: 100%;
@@ -669,27 +553,6 @@ header  .buttons button:hover i {
     width: 65px;
     height: 65px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 #About{
     background-image: var(--mix);
@@ -813,7 +676,7 @@ header  .buttons button:hover i {
     left: 50%;
     top:50%;
     transform: translate(-50%,-50%);
-    animation-name: animate-3;
+    animation-name: rotate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
@@ -828,42 +691,6 @@ header  .buttons button:hover i {
     color: black;
     font-size: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* *++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 #Testimonials{
     height: 560px;
@@ -923,29 +750,6 @@ header  .buttons button:hover i {
 #Testimonials .container .item h4 span{
     color: var(--main-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 #Menu{
     color: #fff;
@@ -1066,7 +870,7 @@ header  .buttons button:hover i {
 }
 #Menu .tab-pane .item .info h5{
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 0px;
     position: relative;
     transform: translateX(-50px);
@@ -1118,36 +922,6 @@ header  .buttons button:hover i {
 #Menu .nav{
     width: max-content;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* *===================================================================================================== */
 #Team{
     color: #fff;
@@ -1207,28 +981,6 @@ header  .buttons button:hover i {
     background: var(--main-color);
     color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* *========================================================================================= */
 #Order#Order{
     text-align: center;
@@ -1295,7 +1047,7 @@ header  .buttons button:hover i {
 }
 #Order .item img{
     
-    animation-name: animate-4;
+    animation-name: delivery;
     animation-duration: 1.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
