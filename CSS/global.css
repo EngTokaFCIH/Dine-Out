@@ -6,11 +6,12 @@
           ,rgb(32, 58, 67)
           ,rgb(15, 32, 39));
 }
+
 html{
     scroll-behavior: smooth;
-    scrollbar-width: 10px;
     ::-webkit-scrollbar{
-        width: 12px;
+        width: 10px;
+        height: 5px;
     }
     ::-webkit-scrollbar-thumb{
         background-color: var(--main-color);
@@ -20,11 +21,12 @@ html{
         background-image: var(--mix);
     }
 }
+
 body{
     font-family: "Poppins", sans-serif;
-    height: 7000px;
     background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
     height: auto;}
+
 h1,
 h2,
 h3,
@@ -33,21 +35,26 @@ h5,
 h6{
     font-family: "Dancing Script", cursive;
 }
+
 .title{
     width: fit-content;
 }
+
 .title h2,
 .container .part-1 h2 {
     font-family: "Poppins", sans-serif;
     color: #fff;
 }
+
  .title h2{
     font-size: 45px;
 }
+
 .title .image{
     position: relative;
     width: 100%;
 }
+
 .title .image::after,
 .title .image::before{
     content: "";
@@ -58,9 +65,54 @@ h6{
     position: absolute;
     top: 50%;
 }
+
 .title .image::before{
     left: -10%;
 }
+
 .title .image::after{
     right: -10%;
+}
+
+header #carouselExampleCaptions .carousel-item button{
+    transform: scale(0);
+    transition-duration: 1s;
+}
+header #carouselExampleCaptions .carousel-item.active button{
+    background-color: transparent;
+    color: #f1b601;
+    width: 140px;
+    height: 40px;
+    border: 2px solid #f1b601;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    transform: scale(1);
+    transition-delay: 0.5s;
+}
+
+header #carouselExampleCaptions .carousel-item button::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #f1b601;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition-duration: 1s;
+}
+
+header #carouselExampleCaptions .carousel-item button:hover::before {
+    left: 0%;
+}
+
+header #carouselExampleCaptions .carousel-item button span {
+    position: relative;
+    z-index: 2;
+    transition-duration: 1s;
+}
+
+header #carouselExampleCaptions .carousel-item button:hover span {
+    color: #fff;
 }
